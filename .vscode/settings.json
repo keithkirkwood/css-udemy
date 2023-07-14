@@ -1,16 +1,12 @@
 {
     "workbench.iconTheme": "vscode-icons",
-    "python.linting.enabled": false,
-    "python.linting.lintOnSave": false,
     "git.confirmSync": false,
     "git.autofetch": true,
     "git.enableSmartCommit": true,
-    "gitlens.defaultDateFormat": "Do MMMM, YYYY h:mma",
-    "gitlens.defaultDateShortFormat": "D MMM, YYYY",
+    "git.allowForcePush": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "eslint.format.enable": false,
-    "typescript.suggest.paths": false,
     "better-comments.multilineComments": true,
     "cSpell.language": "en-GB"
 }
