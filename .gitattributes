@@ -1,0 +1,28 @@
+# Prevent automatic merge of CI config
+# Takes the version from the current branch as the tentative
+# merge result, and declares that the merge has conflicts (example)
+# .gitlab-ci.yml  -merge
+
+# Prevent any changing of customer content or openapi folders(examples)
+# content/**	merge=ours
+# openapi/**	merge=ours
+# LFS file patterns
+# Raster
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.jpe filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.ico filter=lfs diff=lfs merge=lfs -text
+# Vector
+*.svg filter=lfs diff=lfs merge=lfs -text
+*.svgz filter=lfs diff=lfs merge=lfs -text
+*.eps filter=lfs diff=lfs merge=lfs -text
+# Fonts
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+*.woff filter=lfs diff=lfs merge=lfs -text
+*.woff2 filter=lfs diff=lfs merge=lfs -text
+# Misc
+*.snag filter=lfs diff=lfs merge=lfs -text

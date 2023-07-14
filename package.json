@@ -1,0 +1,25 @@
+{
+    "name": "development",
+    "version": "1.0.5",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^8.25.0",
+        "markdownlint-cli": "^0.32.2",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.3.0",
+        "prettier": "^2.7.1",
+        "install-peerdeps": "^3.0.3",
+        "npm-check-updates": "^16.3.14"
+    }
+}

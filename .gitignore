@@ -1,0 +1,55 @@
+# Markdown and Hugo file patterns
+public/
+resources/
+node_modules/
+
+# 3di Information Solutions file patterns
+
+# Video
+*.webm
+*.mpg
+*.mp2
+*.mpeg
+*.mpe
+*.mpv
+*.ogg
+*.mp4
+*.m4p
+*.m4v
+*.avi
+*.wmv
+*.mov
+*.qt
+
+# Documents
+*.pdf
+*.doc
+*.docx
+*.odt
+*.xls
+*.xlsx
+*.ods
+*.ppt
+*.pptx
+
+# Archives
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.gzip
+*.tgz
+*.bzip
+*.bzip2
+*.bz2
+*.iso
+*.tar
+
+# L10N
+*.xliff
+*.xlf
+*.db
+*.mdb
+*.sql
+*.tmp
